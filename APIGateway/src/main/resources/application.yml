@@ -1,0 +1,17 @@
+server:
+  port: 8085      
+  
+spring:
+  application:
+    name: API-GATEWAY
+    
+
+okta:
+  oauth2:
+    issuer: https://dev-11751494.okta.com/oauth2/default
+    audience: api://default
+    client-id: 0oagwvr0o7rp1PIwb5d7
+    client-secret: L1UTFqkMr7k68V-xVchwFtiLSdB6zTCSS6kMoY-KmVR0hvmNvl_eYewq9y9hoB9a
+    scopes: openid, profile, email, offline_access
+    
+    
